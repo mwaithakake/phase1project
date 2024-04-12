@@ -1,0 +1,54 @@
+@import url(bootstrap.css);
+
+
+
+.navbar-brand{
+    font-weight: 300px;
+    font-style:inherit;
+    font-size:200%;
+    color: black;
+    text-transform: uppercase;
+    
+}
+
+#definition{
+    
+    color:white;
+    font-style: inherit;
+    font-size: 150%;
+}
+
+#wordheading{
+    background-color: bisque;
+    font-size:70%;
+    text-transform: uppercase;
+    
+}
+
+#textblock{
+    background-color: black;
+    width: 100%;
+} 
+
+
+#searchinput{
+    background-color: bisque;
+    
+}
+
+#bigcontainer{
+    background-color: black;
+}
+
+#searchbtn{
+    width: 200px;
+    background-color: bisque;
+    border-color: black;
+    color: black;
+}
+
+#searchinput{
+    width: 200%;
+    color: black;
+    border: black;
+}

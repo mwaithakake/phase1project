@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title> Dictionary app</title>
+</head>
+ <!-- background image -->
+<style>
+  body{
+      background-image:url('dictionary.jpg') ;
+      background-repeat: no-repeat;
+      background-size: 50cm;
+      background-attachment: fixed;
+     }
+     </style>
+<body >
+   <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id = "bigcontainer">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Welcome to the dictionary app</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             
+            </ul>
+             <!-- input and search bar -->
+            <form class="d-flex" role="search">
+              <input id = "searchinput" class="form-control me-2" type="search" placeholder="SEARCH YOUR WORD HERE" aria-label="Search">
+              <button id ="searchbtn" class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div >
+        <div class="px-4 py-5 my-5 text-center">
+           <!-- the book icon -->
+    <img class="d-block mx-auto mb-4" src="https://raw.githubusercontent.com/danklammer/bytesize-icons/210d2f81c340c838053eed4c5a0385fbf2a033e9/dist/icons/book.svg" alt="" width="72" height="57">
+     <!-- meaning of the words are displayed here -->
+    <h1 class="display-5 fw-bold text-body-emphasis" ><span id = "wordheading">Your word and meaning will appear here</span></h1>
+    <div class="col-lg-6 mx-auto" id="textblock" >
+      <p class="lead mb-4"> <span id = "definition" > </span>
+     
+    </div>
+  </div>
+      </div>
+       <!-- link to the index.js file -->
+      <script src="./index.js"></script>
+</body>
+</html>
